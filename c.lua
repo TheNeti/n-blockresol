@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
 
 		if GetIsWidescreen() then
 			ClearTimecycleModifier()
-            isBlurActive = false
+            		isBlurActive = false
 		end
 	end
 end)

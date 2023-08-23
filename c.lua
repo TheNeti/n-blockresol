@@ -4,7 +4,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(3000)
 		if not GetIsWidescreen() then
-			TriggerServerEvent('richrp:startBlurEffect')
+			TriggerServerEvent('neti:startBlurEffect')
 		end
 
 		if GetIsWidescreen() then
@@ -25,8 +25,8 @@ Citizen.CreateThread(function()
 end)
 local isBlurActive = false
 
-RegisterNetEvent('richrp:activateBlur')
-AddEventHandler('richrp:activateBlur', function()
+RegisterNetEvent('neti:activateBlur')
+AddEventHandler('neti:activateBlur', function()
     isBlurActive = true
 end)
 

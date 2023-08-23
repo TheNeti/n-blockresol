@@ -1,14 +1,8 @@
-fx_version 'adamant'
-game 'gta5'
-lua54 'yes'
+fx_version "cerulean"
+game "gta5"
+lua54 "yes"
 
-author 'Neti'
-version '1.0'
+author "Neti"
+version "1.0"
 
-client_scripts {
-    'c.lua'
-}
-
-server_scripts {
-    's.lua'
-}
+client_script "c.lua"

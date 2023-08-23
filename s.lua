@@ -1,5 +1,5 @@
-RegisterServerEvent('richrp:startBlurEffect')
-AddEventHandler('richrp:startBlurEffect', function()
+RegisterServerEvent('neti:startBlurEffect')
+AddEventHandler('neti:startBlurEffect', function()
     local source = source
-    TriggerClientEvent('richrp:activateBlur', source)
+    TriggerClientEvent('neti:activateBlur', source)
 end)

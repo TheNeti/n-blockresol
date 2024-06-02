@@ -1,4 +1,4 @@
-if N.versionCheck then
+if true then
     local currentVersion = GetResourceMetadata('n-blockresol', 'version', 0)
 
     if currentVersion then

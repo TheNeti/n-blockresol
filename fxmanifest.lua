@@ -9,3 +9,5 @@ description 'blocking prohibited screen resolutions | 4:3, 5:4'
 repository 'https://github.com/TheNeti/n-blockresol'
 
 client_script "c.lua"
+
+server_script 'version.lua'
